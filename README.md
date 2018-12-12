@@ -1,4 +1,4 @@
 # BlackJack
 With HyunJin
 
-Whoever, enjoy to the this game!
+Whoever, enjoy this game!
