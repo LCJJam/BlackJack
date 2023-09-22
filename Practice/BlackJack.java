@@ -202,7 +202,7 @@ public void buildTable() {//single play buildtable
     add(userPane, BorderLayout.SOUTH);
      // Set Starting Money
     try { 
-   img = ImageIO.read(getClass().getResource("/img/Cards.gif"));
+        img = ImageIO.read(Objects.requireNonNull(getClass().getResource("../img/Cards.gif")));
     } catch (IOException e) {}
     Account = getStartingAccount();
     cash = getStartingAmmt();
